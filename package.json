@@ -2,7 +2,7 @@
   "engines": {
     "node": "22.X"
   },
-  "name": "e-chat-fe",
+  "name": "next-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,7 +24,9 @@
     "*.js": "eslint --cache --fix"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.19",
     "next": "14.2.3",
+    "normalize.css": "^8.0.1",
     "react": "^18",
     "react-dom": "^18",
     "sass": "^1.77.2"
